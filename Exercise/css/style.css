@@ -1,7 +1,7 @@
 :root {
-    --blue-color: #1b395a;
-    --white-text: #fffbfb;
-    --black-text: #151313;
+    --blue: #1b395a;
+    --white: #fffbfb;
+    --black: #151313;
 }
 
 #container {
@@ -10,24 +10,20 @@
 }
 
 .navbar {
-    background-color: var(--blue-color);
+    background-color: var(--blue);
     border-radius: 0;
 }
 
 .title {
     margin-left: 2rem;
-    color: var(--white-text);
+    color: var(--white);
 }
 
 .flex-box1 {
     display: flex;
     gap: 1.5rem;
     margin-top: 3rem;
-    color: var(--white-text);
-}
-
-.pink {
-    text-align: center;
+    color: var(--white);
 }
 
 .location {
@@ -42,41 +38,42 @@ h5 {
     text-decoration: underline;
 }
 
-.flex-box{
+.flex-box {
     display: flex;
     gap: .5rem;
 }
 
 a {
-    color: var(--white-text);
+    color: var(--white);
 }
 
 a:hover {
-    color:var(--white-text);
+    color:var(--white);
 
 }
 
 button {
-    color: var(--white-text);
-    background-color: var(--black-text);
-   
+    color: var(--white);
+    background-color: var(--black);
+}
+
+.button {
+    padding: .5rem;
 }
 
 .second-links {
-    color: var(--white-text);
+    color: var(--white);
     font-size: 1.8rem;
 }
 
 .second-links:hover {
-    color: var(--black-text);
+    color: var(--black);
 }
-
-
 
 .container1 {
     padding:2rem;
-    color: var(--white-text);
-    background-color: var(--black-text);
+    color: var(--white);
+    background-color: var(--black);
 }
 
 h2 {
@@ -99,19 +96,19 @@ h2 {
 }
 
 .msrp {
-    border-bottom: 2px solid var(--black-text);
-    border-top: 2px solid var(--black-text);
+    border-bottom: 2px solid var(--black);
+    border-top: 2px solid var(--black);
     padding: 4rem;
-    color: var(--black-text);
+    color: var(--black);
     margin-bottom: 2rem;
     font-size: 2rem;
 }
 
 .mpg {
-    border-bottom: 2px solid var(--black-text);
-    border-top: 2px solid var(--black-text);
+    border-bottom: 2px solid var(--black);
+    border-top: 2px solid var(--black);
     padding: 4rem;
-    color: var(--black-text);
+    color: var(--black);
     margin-bottom: 2rem;
     font-size: 2rem;
 }
@@ -127,18 +124,16 @@ h2 {
 
 
 footer {
-    color: var(--white-text);
-    background-color: var(--black-text);
+    color: var(--white);
+    background-color: var(--black);
     padding: 4rem;
     margin-top: 2rem;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     h1 {
         font-size: 1.8rem;
     }
-    
-  
 
     .flex-box1 {
         flex-direction: column;
@@ -146,8 +141,6 @@ footer {
         align-items: center;
         justify-content: center;
     }
-
-
 
 }
 
