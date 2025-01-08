@@ -26,6 +26,10 @@
     color: var(--white-text);
 }
 
+.pink {
+    text-align: center;
+}
+
 .location {
     font-size: 1.5rem;
 }
@@ -35,7 +39,6 @@
 }
 
 h5 {
-    
     text-decoration: underline;
 }
 
@@ -53,15 +56,19 @@ a:hover {
 
 }
 
-.btn {
+button {
     color: var(--white-text);
     background-color: var(--black-text);
-    margin-bottom: 1.5rem;
+   
 }
 
 .second-links {
     color: var(--white-text);
     font-size: 1.8rem;
+}
+
+.second-links:hover {
+    color: var(--black-text);
 }
 
 
@@ -81,16 +88,19 @@ h2 {
 }
 
 .cards {
-    padding: 4rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 
 .flex-box2 {
     display: flex;
     justify-content: center;
+    flex-direction: row;
 }
 
 .msrp {
     border-bottom: 2px solid var(--black-text);
+    border-top: 2px solid var(--black-text);
     padding: 4rem;
     color: var(--black-text);
     margin-bottom: 2rem;
@@ -99,6 +109,7 @@ h2 {
 
 .mpg {
     border-bottom: 2px solid var(--black-text);
+    border-top: 2px solid var(--black-text);
     padding: 4rem;
     color: var(--black-text);
     margin-bottom: 2rem;
@@ -122,5 +133,22 @@ footer {
     margin-top: 2rem;
 }
 
+@media (max-width: 768px){
+    h1 {
+        font-size: 1.8rem;
+    }
+    
+  
+
+    .flex-box1 {
+        flex-direction: column;
+        padding: 1rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+}
 
 
