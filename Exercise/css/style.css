@@ -1,3 +1,47 @@
-.image {
-    padding: 0;
+:root {
+    --blue-color: #034D9D;
+    --white-text: #fffbfb;
+    --black-text: #151313;
+}
+
+
+
+
+.container-fluid {
+    padding: 0px;
+}
+
+.navbar {
+    background-color: var(--blue-color);
+    border-radius: 0;
+}
+
+.title {
+    margin-left: 2rem;
+    color: var(--white-text);
+}
+
+.review {
+    display: flex;
+    gap: .8rem;
+   
+    margin-top: 3rem;
+    color: var(--white-text);
+}
+
+.location {
+    font-size: 1.5rem;
+}
+
+.glyphicon-star {
+    margin-top: .1rem;
+}
+
+.second-links {
+    color: var(--white-text);
+    font-size: 1.8rem;
+}
+
+.image{
+    width: 100%;
 }
