@@ -10,7 +10,7 @@
     </head>
     <body>
         <!--Nav one Start-->
-        <div class="container-fluid">
+        <div id="container" class="container-fluid">
             <nav class="navbar">
                 <div class="container-fluid">
                     <div class="row">
@@ -18,11 +18,37 @@
                             <h1 class="title">2024 Subaru Crosstrek</h1>
                         </div>
                         <div class="col-xs-6">
-                            <div class="review"> 
-                                <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
-                                <p class="location"> Charlotte, NC</p>
-                                <span class="glyphicon glyphicon-star" aria-hidden="true"></span> 
-                                <p>4.39 (74 reviews)</p>
+                            <div class="flex-box1"> 
+                                <div class="flex-box">
+                                    <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+                                    <p><a href="/hours.aspx">
+                                        1326 SE Enterprise, Charlotte, NC</a>
+                                    </p>
+                                </div>
+                               
+
+                                <div class="flex-box">
+                                    <span class="glyphicon glyphicon-star" aria-hidden="true"></span> 
+                                    <p>4.39 (74 reviews)</p>
+
+                                </div>
+                                <div class="flex-box">
+                                    <p> Sales:</p>
+                                    <p><a href="#">
+                                        555-877-5434</a>
+                                    </p>
+                                </div>
+                                <div class="flex-box">
+                                    <p>Service:</p>
+                                    <p><a href="#">
+                                        555-877-5434</a>
+                                    </p>
+                                </div>
+                                <button type="button" class="btn">
+                                <a href="#">
+                                    Search available Inventory
+                                </a>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -31,7 +57,7 @@
         </div>
         <!--Nav one End-->
         <!--Nav two Start-->
-        <div class="container-fluid">
+        <div id="container" class="container-fluid">
             <nav class="navbar">
                 <div class="container">
                     <ul class="nav navbar-nav">
@@ -53,123 +79,134 @@
         </div>
         <!--Nav two End-->
         <!--Overview Start-->
-        <div class="container-fluid">
+        <div  id="container" class="container-fluid">
             <img 
+               
                 class="img-responsive center-block " 
                 src="images/crosstrek6.jpg" 
                 alt="An image of the 2024 Subaru Crosstrek"
             >
-            <h2>Always room for more stories</h2>
-            <p>
+        </div>
+        <div class="conatiner-fluid container1">
+            <h2 class="text-center subtitle">Always room for more stories</h2>
+            <p class="text-center paragraph">
                 The 2024 Subaru Crosstrek is the most powerful, most fun to drive, and safeest Crosstrek we've ever made, with performance, technology, and design updates throughout. 
             </p>
         </div>
         <!--Overview End-->
         <!--Car info Start-->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-6">
+        <div class="container-fluid cards text-center margin-bottom">
+            <div class="flex-box2">
+                <div class="msrp">
                     <p>MSRP</p>
                     <p>$28,245</p>
                 </div>
-                <div class="col-xs-6">
+                <div class="mpg">
                     <p>MPG</p>
                     <p>29 City</p>
                     <p>35 Highway</p>
                 </div>
+                <img src="" alt="">
+            </div>
             </div>
         </div>
         <!--Car info End-->
         <!--Features Start-->
-        <div class="container-fluid">
+        <div class="container-fluid margin-bottom">
             <div class="row">
-                <div class="col-xs-6">
+                <div class="col-md-6">
                     <img 
                     src="images/crosstrek2.jpg" 
                     class="img-responsive"
                     alt="An image of the Subaru Crosstrek on a dirt road."
                     >
                 </div>
-                <div class="col-xs-6">
-                    <h2 id="extra">Extra Power, Capability, and Fun</h2>
-                    <p>
-                        The 2024 Crosstrek features a newly available 2.5-liter direct-injection SUBARU BOXER engine that delivers more torque and increases output to 182 horsepower - exta power that makes all your trips more exciting and responsive.
-                    </p>
-
+                <div class="col-md-6 title-text">
+                        <h2 class="text-center">
+                            Extra Power, Capability, and Fun
+                        </h2>
+                        <p class="text-center paragraph md-text-size-">
+                            The 2024 Crosstrek features a newly available 2.5-liter direct-injection SUBARU BOXER engine that delivers more torque and increases output to 182 horsepower - exta power that makes all your trips more exciting and responsive.
+                        </p>
                 </div>
             </div>
         </div>
         <!--Features End-->
-        <!--Design Start-->
-        <div class="container-fluid">
-            <h2 id="sport">Sport Exterior Design</h2>
-            <p>Crosstrek Sport features unique exterior design elements like its aggressively styled grille and wheel arch moldings, gunmetal finish exterior accents, and exclusive dark gray wheels.</p>
-        </div>
-        <div class="container-fluid"> <!--may still use carousel-->
-            <div class="row">
-                <div class="col-xs-4">
-                    <img src="images/crosstrek10.jpg" alt="2024 Crosstrek grille close up">
-                </div>
-                <div class="col-xs-4">
-                    <img src="images/crosstrek2.png" alt="2024 Crosstrek gunmetal finish ">
-                </div>
-                <div class="col-xs-4">
-                    <img src="images/crosstrek11.jpg" alt="2024 Crosstrek dark gray wheels">
-                </div>
+        <!-- Extra image Start -->
 
-                </div>
+        <!-- Extra image End -->
+        <!--Design Start-->
+        <div class="container-fluid margin-bottom">
+                <h2 id="sport" class="text-center">
+                    Sport Exterior Design
+                </h2>
+                <p class=" text-center paragraph">
+                    Crosstrek Sport features unique exterior design elements like its aggressively styled grille and wheel arch moldings, gunmetal finish exterior accents, and exclusive dark gray wheels.
+                </p>
+        </div>
+        <div class="container-fluid margin-bottom"> 
+                    <img 
+                        src="images/crosstrek10.jpg" 
+                        class="img-responsive center-block" 
+                        alt="2024 Crosstrek grille close up"
+                    >
             </div>
         </div>
         <!--Design End-->
         <!--Interior Start-->
-        <div class="container-fluid">
-            <img src="images/crosstrek5.jpg" alt="The interior of the 2024 Crosstrek">
-            <h2 id="comfortable">Comfortable and Modern Interior</h2>
-            <p>
-                Inside the Crosstrek Sport, you'll find a comfortable interior that combines modern style and durable high-tech materials - like its standard, adventure-ready StarTex® water-repellent upholstry with yellow contrast stitching and yellow accent trim.
-            </p>
+        <div class="container-fluid margin-bottom">
+            <div class="row">
+                <div class="col-md-6">
+                        <h2 id="comfortable" class="text-center">
+                            Comfortable and Modern Interior
+                        </h2>
+                        <p class="text-center">
+                            Inside the Crosstrek Sport, you'll find a comfortable interior that combines modern style and durable high-tech materials - like its standard, adventure-ready StarTex® water-repellent upholstry with yellow contrast stitching and yellow accent trim.
+                        </p>
+                </div>
+                <div class="col-md-6">
+                    <img 
+                    src="images/crosstrek5.jpg" 
+                    class="img-responsive"
+                    alt="The interior of the 2024 Crosstrek">
+                    
+                </div>
+            </div>
         </div>
         <!--Interior End-->
         <!--Tech Start-->
+        <div class="container-fluid margin-bottom">
+                <h2 class=" text-center">
+                    Safe, Convenient, and Entertaining
+                </h2>
+                <p class="text-center">
+                    The 2024 Crosstrek features STARLINK Multimedia with standard Apple CarPlay® and Android Auto™ integration. Wireless pairing and hands-free smartphone operation allow for safe and easy connection to your favorite apps and content. Access news, navigation, music, podcasts, and more through available cloud-based STARLINK apps and SiriusXM®. An 8-inch touchscreen is available, as well as a built-in and voice-activated navigation system powered by TomTom®.
+                </p>
+        </div>
+
         <div class="container-fluid">
-            <h2>Safe, Convienient, and Entertaining</h2>
-            <p>
-                The 2024 Crosstrek features STARLINK Multimedia with standard Apple CarPlay® and Android Auto™ integration. Wireless pairing and hands-free smartphone operation allow for safe and easy connection to your favorite apps and content. Access news, navigation, music, podcasts, and more through available cloud-based STARLINK apps and SiriusXM®. An 8-inch touchscreen is available, as well as a built-in and voice-activated navigation system powered by TomTom®.
-            </p>
             <div class="row">
-                <div class="col-xs-6">
-                    <img src="images/crosstrek4.jpg" alt="">
+                <div class="col-md-6">
+                    <img 
+                        src="images/crosstrek4.jpg" 
+                        class="img-responsive radio-img"
+                        alt="Image of Crosstrek touchscreen radio"
+                    >
                 </div>
-                <div class="col-xs-6">
-                    <img src="images/crosstrek8.jpg" alt="">
+                <div class="col-md-6">
+                    <img 
+                        src="images/crosstrek8.jpg" 
+                        class="img-responsive"
+                        alt="Two people using the Crosstrek touchscreen radio"
+                    >
                 </div>
             </div>
         </div>
         <!--Tech End-->
-        <!-- Search available inventory -->
-         <div class="container-fluid">
-            <button type="button" class="btn">
-                <a href="#">Search available Inventory</a>
-            </button>
-         </div>
-        <!--Contact info Start-->
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-xs-4">
-                    <h3>Sales</h3>
-                    <p><a href="#">555-877-5434</a></p>
-                </div>
-                <div class="col-xs-4">
-                    <h3>Service</h3>
-                    <p><a href="#">555-877-5434</a></p>
-                </div>
-                <div class="col-xs-4">
-                    <p><a href="/hours.aspx">1326 SE Enterprise, Charlotte, NC</a></p>
-                </div>
-            </div>
-        </div>
-        <!--Contact info End-->
-
-        
+       <!-- Footer Start -->
+        <footer class="text-center">
+            &copy; Subaru Crosstrek
+        </footer>
+       <!-- Footer End -->
     </body>
 </html>
